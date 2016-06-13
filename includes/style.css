@@ -65,23 +65,9 @@ header {
     color: #a8d6e7;
 }
 
-footer {
-    height: 32px;
-    width: 1005px;
-    background-image: url(/images/footer.png);
-    background-repeat: no-repeat; 
-    margin: 0 auto;
-}
-
 a {
     text-decoration: none;
     text-transform: uppercase;
-}
-
-p {
-    width: 916px;
-    height: 39px;
-    line-height: 27px;
 }
 
 .openfooter {
@@ -140,25 +126,77 @@ p {
     margin: 0 auto;
 }
 
-#login {
-    background-repeat: repeat-x;
-    margin-left: 10px;
+footer {
+    height: 32px;
+    width: 1005px;
+    background-image: url(/images/footer.png);
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+}
+/*
+
+#login .loginbtnfooter {
+    background-repeat: no-repeat;
+    height: 15px;
+    background-image: url(/images/loginfooter.png);
+    width: 35px;
+    margin-left: 41px;
+    margin-top: 9px;
+    display: inline-block;
+}
+*/
+
+#login .loginbtnfooter a {
+    background-repeat: no-repeat;
+    height: 15px;
+    background-image: url(/images/loginfooter.png);
+    width: 35px;
+    margin-left: 42px;
+    margin-top: 9px;
+    display: inline-block;
+    float: left;
 }
 
+#login .logoutbtnfooter a {
+    background-repeat: no-repeat;
+    height: 15px;
+    background-image: url(/images/logoutfooter.png);
+    width: 40px;
+    margin-left: 14px;
+    margin-top: 9px;
+    display: inline-block;
+    float: left;
+}
+
+#login .onlineshop a {
+    background-repeat: no-repeat;
+    height: 30px;
+    background-image: url(/images/onlineShop.png);
+    width: 175px;
+    margin-left: 316px;
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+}
+
+#login .onlineshoppressed a {
+    background-repeat: no-repeat;
+    height: 30px;
+    background-image: url(/images/onlineShopPressed.png);
+    width: 175px;
+    margin-left: 316px;
+    margin-top: 0px;
+    display: inline-block;
+    float: left;
+}
+
+/*
 #login .content {    
     line-height: 20px;
-    margin-top: 0px;
-    margin-left: 9px;
-    margin-right:0px;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    background-image: url(/images/loginfooter.png);
 }
-
-#login .content a {
-    position:absolute;
-    color:#FFF;
-    left: 15px;
-}
+*/
 
 #wrapper {
     width: 1005px;
@@ -166,5 +204,151 @@ p {
     height: 337px;
     background-image: url(/images/mainArea.png);
     background-repeat: no-repeat; 
+}
 
+#menuWrapper {
+    width: 1005px;
+    margin: auto;
+    height: 699px;
+    background-image: url(/images/designersPage.png);
+    background-repeat: no-repeat; 
+}
+
+#menuWrapper .backarrow a {
+    width: 31px;
+    height: 40px;
+    background-image: url(/images/leftarrow.png);
+    background-repeat: no-repeat; 
+    display: inline-block;
+    float: left;
+    margin-top: 88px;
+    margin-left: 2px;
+}
+
+#menuWrapperCategories {
+    width: 1005px;
+    margin: auto;
+    height: 699px;
+    background-image: url(/images/mainCategories.png);
+    background-repeat: no-repeat; 
+}
+
+#menuWrapperCategories .backarrow a {
+    width: 31px;
+    height: 40px;
+    background-image: url(/images/leftarrow.png);
+    background-repeat: no-repeat; 
+    display: inline-block;
+    float: left;
+    margin-top: 87px;
+    margin-left: 0px;
+}
+#wrapper .designerbtn a {
+    background-image: url(/images/designers.png);
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 14px;
+    margin-left: 445px;
+    margin-top: 238px;
+    display: inline-block;
+    float: left;
+}
+
+.itemsGallery {
+    width: 666px;
+    height: 501px;
+    margin-left: 265px;
+    margin-top: 199px;
+    display: inline-block;
+    float: left;
+}
+
+ .jssorb01 {
+    position: absolute;
+}
+
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+.jssora13l, .jssora13r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+    background: url('img/a13.png') no-repeat;
+    overflow: hidden;
+}
+
+.jssora13l { background-position: -10px -35px; }
+.jssora13r { background-position: -70px -35px; }
+.jssora13l:hover { background-position: -130px -35px; }
+.jssora13r:hover { background-position: -190px -35px; }
+.jssora13l.jssora13ldn { background-position: -250px -35px; }
+.jssora13r.jssora13rdn { background-position: -310px -35px; }
+
+#jssor_1 {
+    position: relative; 
+    margin: 0 auto; 
+    top: 0px; 
+    left: 0px; 
+    width: 800px; 
+    height: 300px; 
+    overflow: hidden; 
+    visibility: hidden;
+}
+
+#loading {
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
+#slides {
+    cursor: default; 
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    width: 800px; 
+    height: 300px; 
+    overflow: hidden;
+}
+
+#navigator {
+    bottom:16px;
+    right:16px;
+}
+
+#prototype {
+    width:12px;
+    height:12px;
+}
+
+.jssora13l {
+    top:0px;
+    left:30px;
+    width:40px;
+    height:50px;
+}
+
+.jssora13r {
+    top:0px;
+    right:30px;
+    width:40px;
+    height:50px;
 }
